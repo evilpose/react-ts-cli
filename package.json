@@ -13,6 +13,7 @@
     "@types/node": "^12.0.0",
     "@types/react": "^17.0.0",
     "@types/react-dom": "^17.0.0",
+    "@types/react-router-dom": "^5.1.7",
     "@typescript-eslint/eslint-plugin": "^4.5.0",
     "@typescript-eslint/parser": "^4.5.0",
     "antd": "^4.15.4",
@@ -60,6 +61,8 @@
     "react-dev-utils": "^11.0.3",
     "react-dom": "^17.0.2",
     "react-refresh": "^0.8.3",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0",
     "resolve": "1.18.1",
     "resolve-url-loader": "^3.1.2",
     "sass-loader": "^10.0.5",
@@ -81,8 +84,8 @@
     "dev:mobile": "cross-env --DEVICE=mobile node scripts/start.js",
     "build_test:pc": "cross-env --DEVICE=pc PUBLIC_URL=https://test.com/cdn/ node scripts/build.js",
     "build_test:mobile": "cross-env --DEVICE=mobile PUBLIC_URL=https://test.com/cdn/ node scripts/build.js",
-    "build_prod:pc": "cross-env --DEVICE=pc PUBLIC_URL=https://prod.com/cdn/ node scripts/build.js",
-    "build_prod:mobile": "cross-env --DEVICE=mobile PUBLIC_URL=https://prod.com/cdn/ node scripts/build.js",
+    "build_prod:pc": "cross-env --DEVICE=pc PUBLIC_URL=http://123.56.218.25/ node scripts/build.js",
+    "build_prod:mobile": "cross-env --DEVICE=mobile PUBLIC_URL=http://123.56.218.25/ node scripts/build.js",
     "test": "node scripts/test.js"
   },
   "eslintConfig": {
