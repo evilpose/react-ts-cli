@@ -10,6 +10,10 @@ import Page_5 from './page_5';
 import Page_6 from './page_6';
 import Page_7 from './page_7';
 import Page_8 from './page_8';
+import Page_9 from './page_9';
+import Page_10 from './page_10';
+import Page_11 from './page_11';
+import Page_12 from './page_12';
 
 const App = () => {
   return (
@@ -24,6 +28,10 @@ const App = () => {
         <Route path="/page_6" component={Page_6} />
         <Route path="/page_7" component={Page_7} />
         <Route path="/page_8" component={Page_8} />
+        <Route path="/page_9" component={Page_9} />
+        <Route path="/page_10" component={Page_10} />
+        <Route path="/page_11" component={Page_11} />
+        <Route path="/page_12" component={Page_12} />
       </Router>
     </div>
   );

@@ -14,6 +14,10 @@ const Nav = () => {
           <li>6. <a href="/page_6">page6_useCallback</a></li>
           <li>7. <a href="/page_7">page7_forwardRef</a></li>
           <li>8. <a href="/page_8">page8_useImperativeHandle</a></li>
+          <li>9. <a href="/page_9">page9_useEffect</a></li>
+          <li>10. <a href="/page_10">page10_useCusterm</a></li>
+          <li>11. <a href="/page_11">page11_useReducer</a></li>
+          <li>12. <a href="/page_12">page12_useRedux</a></li>
         </ul>
     </div>
   );
